@@ -1,6 +1,15 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+        width: {
+            '96': '24rem'
+        },
+        fontFamily: {
+            sans: [
+                'Roboto'
+            ],
+        },
+    },
   },
   variants: {},
   plugins: [],
